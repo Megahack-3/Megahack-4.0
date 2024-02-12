@@ -1,0 +1,19 @@
+.Navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    & .Navbar-logo{
+        width: 2rem;
+    }
+
+    & .Navbar-menu{
+        & ul{
+            display:flex;
+            & li{
+                list-style: none;
+                & a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
