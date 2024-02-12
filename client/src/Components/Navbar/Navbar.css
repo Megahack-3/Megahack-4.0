@@ -38,7 +38,7 @@
 }
 
 .nav-item-wrapper a {
-    margin-right: 1rem; /* Adjust the margin as needed */
+    margin-right: 1rem; 
 }
 
 @media screen and (max-width: 940px) {

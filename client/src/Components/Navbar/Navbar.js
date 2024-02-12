@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
 import Logo from "../../images/MEGA HACK 4.0.png";
-import "./Navbar.css";
+import "./Navbar.css"
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
