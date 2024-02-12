@@ -1,0 +1,50 @@
+.Prize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h4{
+        font-size: 3.6rem;
+        margin: 1rem 0;
+    }
+
+    & p{
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    & .seprater{
+        width: 10rem;
+        height: 1rem;
+        background-color: black;
+        margin: 1rem 0;
+        margin-bottom: 2rem;
+        border-radius: 3rem;
+        -webkit-border-radius: 3rem;
+        -moz-border-radius: 3rem;
+        -ms-border-radius: 3rem;
+        -o-border-radius: 3rem;
+}
+    & .Total {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        & .amounts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* width: 30rem;
+            height: 8rem; */
+            padding: 2.5rem 8rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            & .des{
+                font-size: 1.6rem;
+            }
+            & .pisa{
+                font-size: 2.8rem;
+            }
+        }
+    }
+}

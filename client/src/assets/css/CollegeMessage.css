@@ -1,0 +1,29 @@
+.CollegeMessage{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    & .colleges{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.2rem;
+        flex-direction: column;
+        & img{
+            width: 15rem;
+        }
+
+        & p{
+            display: block;
+            margin-top: 1rem;
+            /* width: 30rem; */
+            font-size: 1.5rem;
+            text-align: center ;
+        }
+    }
+}
+
+@media (width <= 950px) {
+    .CollegeMessage{
+        grid-template-columns: 1fr;
+    }
+}
