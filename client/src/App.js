@@ -5,7 +5,7 @@ import Landing from './Pages/Landing';
 function App() {
   return (
     <div className="App">
-      {/* <Landing/> */}
+       <Landing/>
       <FAQ/>
     </div>
   );
