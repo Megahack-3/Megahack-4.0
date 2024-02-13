@@ -6,6 +6,8 @@ import CountDowm from "./Components/CountDown/Countdown"
 import CollegeMessage from "./Components/CollegeMEssage/CollegeMessage"
 import HomePage from './Components/Home/HomePage';
 import Prize from './Components/Prize/Prize';
+import ContactUs from './Components/Contact Us/ContactUs';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -16,7 +18,8 @@ function App() {
       <CountDowm/>
       <CollegeMessage/>
       <Prize/>
-      
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 }
