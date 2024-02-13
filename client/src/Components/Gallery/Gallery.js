@@ -64,7 +64,10 @@ const Gallery = () => {
   return (
          <div className="App" style={{'marginTop':'15px'}}>
       
-      <Carousel className="crsl" autoPlay centerMode interval={500}
+      <Carousel className="crsl" autoPlay 
+      centerMode
+       interval={1000}
+       infiniteLoop
       >
 
         {images.map((image) => (
