@@ -1,18 +1,13 @@
 import './App.css';
-import CollegeMessage from './Components/CollegeMessage';
-import Prize from './Components/Prize';
-// import Countdown from './Components/Countdown';
-// import FAQ from './Components/FAQ';
-// import Landing from './Pages/Landing';
-
+import FAQ from './Components/FAQ/FAQ';
+//import Landing from './Pages/Landing';
+import Navbar from './Components/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      {/* <Landing/> */}
-      {/* <FAQ/> */}
-      <Countdown/>
-      <CollegeMessage/>
-      <Prize/>
+      {/*<Landing/>*/}
+      <Navbar/>
+      <FAQ/>
     </div>
   );
 }
