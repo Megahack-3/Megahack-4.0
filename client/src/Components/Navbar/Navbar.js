@@ -18,22 +18,22 @@ const Navbar = () => {
                     <a href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/">About</a>
+                    <a href="/about">About</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/">Speaker</a>
+                    <a href="/speaker">Speaker</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/">Gallery</a>
+                    <a href="/gallery">Gallery</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/">Sponsors</a>
+                    <a href="/sponser">Sponsors</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/">FAQs</a>
+                    <a href="/faqs">FAQs</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/">Contact</a>
+                    <a href="/contacts">Contact</a>
                 </li>
                 <li className="nav-item">
                     <button className="signin-button">Register</button>
