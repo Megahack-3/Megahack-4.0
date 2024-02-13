@@ -8,6 +8,7 @@ function App() {
       {/*<Landing/>*/}
       <Navbar/>
       <FAQ/>
+      
     </div>
   );
 }
