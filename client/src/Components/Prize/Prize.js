@@ -14,12 +14,12 @@ const Prize = () => {
                         <p className="pisa">Rs. 35,000</p>
                     </div>
                     <div className="amounts">
-                        <p className="des">FIRST PRIZE</p>
-                        <p className="pisa">Rs. 35,000</p>
+                        <p className="des">Second PRIZE</p>
+                        <p className="pisa">Rs. 25,000</p>
                     </div>
                     <div className="amounts">
-                        <p className="des">FIRST PRIZE</p>
-                        <p className="pisa">Rs. 35,000</p>
+                        <p className="des">Third PRIZE</p>
+                        <p className="pisa">Rs. 15,000</p>
                     </div>
                 </div>
             </section>
