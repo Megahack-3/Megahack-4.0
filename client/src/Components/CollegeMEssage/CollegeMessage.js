@@ -1,7 +1,7 @@
 import React from 'react'
-import './../assets/css/CollegeMessage.css'
-import aldel from "./../assets/images/aldel.png"
-import sjcem from "./../assets/images/SJCEM.png"
+import './CollegeMessage.css'
+import aldel from "../../assets/images/aldel.png"
+import sjcem from "../../assets/images/SJCEM.png"
 
 const CollegeMessage = () => {
     return (

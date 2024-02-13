@@ -1,5 +1,5 @@
 import React from 'react'
-import './../assets/css/Prize.css'
+import './Prize.css'
 
 const Prize = () => {
     return (
