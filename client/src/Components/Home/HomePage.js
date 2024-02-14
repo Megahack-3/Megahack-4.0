@@ -6,8 +6,7 @@ import { motion } from "framer-motion";
 
 function HomePage() {
   return (
-    <>
-    {/*      */}
+    
     <div className="Homepage">
      
       <img className="logo-home"  id src={LOGO} alt="Logo" />
@@ -27,10 +26,9 @@ function HomePage() {
       >
         <p> CODE | COMPETE | CONQUER</p>
       </motion.h1>
-      </div>
-      
     </div>
-    </>
+    </div>
+    
   );
 }
 
