@@ -30,7 +30,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 5rem;
+        gap: 20rem;
         margin-bottom: 2rem;
 
         & .contact-box {
@@ -40,7 +40,7 @@
             justify-content: center;
             /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
             padding: 2.5rem 0;
-            width: 40rem;
+            /* width: 40rem; */
             border-radius: 1.5rem;
             -webkit-border-radius: 1.5rem;
             -moz-border-radius: 1.5rem;
@@ -103,6 +103,18 @@
 
 @media (width <=750px) {
     .ContactUs {
+        .form {
+            & .two-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+}
+
+@media (width <=420px) {
+    .ContactUs {
+        width: 70%;
         .form {
             & .two-row {
                 grid-template-columns: 1fr;

@@ -8,16 +8,21 @@ import HomePage from './Components/Home/HomePage';
 import Prize from './Components/Prize/Prize';
 import ContactUs from './Components/Contact Us/ContactUs';
 import Footer from './Components/Footer/Footer';
+import About from './Components/About/About';
+import Event from './Components/Event/Event';
 function App() {
   return (
 
     <div className="App">
-      {/*<Landing/>*/}
       <Navbar />
       <HomePage />
-      <FAQ />
+      <About/>
       <CountDowm />
+      <Event/>
       <CollegeMessage />
+      {/* Gallery */}
+      {/* Sponser */}
+      <FAQ />
       <Prize />
       <ContactUs />
       <Footer />

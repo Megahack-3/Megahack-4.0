@@ -7,40 +7,42 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
-
 img {
-  /* margin-top: 2.6rem; */
-  width: 30rem;
+  width: 100%;
+  max-width: 30rem;
   height: auto;
 }
 
-.logo-home{
+.logo-home {
   margin-top: 7rem;
-  width: 25rem;
+  width: 100%;
+  max-width: 25rem;
 }
 
 .home-text {
   text-align: center;
 }
 
-.home-text h2 {
+.home-text h1 {
   font-size: 3rem;
   font-weight: bold;
   color: white;
 }
 
-.logo-text{
-  width: 35rem;
+.logo-text {
+  width: 100%;
+  max-width: 35rem;
 }
 
 @media (max-width: 768px) {
-  .logo {
-    width: 150px;
+  .logo-home {
+    max-width: 150px;
   }
 
-  .text h1 {
+  .home-text h1 {
     font-size: 20px;
   }
 }
