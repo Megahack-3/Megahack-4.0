@@ -40,7 +40,7 @@ const ContactUs = () => {
                     </div>
                     <div className="intag">
                         <label htmlFor="Message">Message</label>
-                        <textarea name="Message" id="Message" cols="30" rows="4">Message</textarea>
+                        <textarea name="Message" id="Message" cols="30" rows="4"> </textarea>
                     </div>
                     <button>Submit</button>
                 </div>

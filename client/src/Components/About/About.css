@@ -1,0 +1,48 @@
+.About {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 5rem;
+    margin: 0 1rem;
+
+    & .about-event {
+        /* width: 60rem; */
+
+    }
+
+    & .about-data {
+        & h3 {
+            font-size: 2.4rem;
+        }
+
+        & p {
+            font-size: 1.6rem;
+            text-align: justify;
+        }
+    }
+}
+
+
+@media (width <=850px) {
+    .About {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+
+        & .about-data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            & h3 {
+                font-size: 1.6rem;
+            }
+
+            & p {
+                font-size: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+
+}

@@ -73,6 +73,7 @@ const FAQData = [
     {
         question: "What is: 1 + 1?",
         answer: "Depends on who you are asking.",
+        
     },
     {
         question: "What is: 1 + 1?",
