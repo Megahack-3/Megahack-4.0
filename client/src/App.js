@@ -17,13 +17,11 @@ function App() {
     <div className="App">
       <Navbar />
       <HomePage />
-      <About/>
+      <About />
       <CollegeMessage />
       <CountDowm />
-      <Event/>
-     
-      {/* Gallery */}
-      <Sponsor/>
+      <Event />
+      <Sponsor />
       <FAQ />
       <Prize />
       <ContactUs />

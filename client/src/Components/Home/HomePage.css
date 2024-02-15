@@ -21,7 +21,7 @@ p{
 }
 
 .logo-home {
-  margin-top: 1rem;
+  margin-top: auto;
   width: 100%;
   max-width: 25rem;
 }
@@ -48,6 +48,6 @@ p{
   
 
   .home-text h1 {
-    font-size: 21px;
+    font-size: 15px;
   }
 }
