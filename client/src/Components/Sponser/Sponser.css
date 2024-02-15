@@ -1,0 +1,39 @@
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+h1{
+  font-size: xx-large;
+}
+.sponsor-container {
+  position: relative;
+}
+
+.sponsor-container:hover .sponsor-text {
+  opacity: 1;
+}
+
+.sponsor {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-container:hover .sponsor {
+  transform: scale(1.1);
+}
+
+.sponsor-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease;
+}
