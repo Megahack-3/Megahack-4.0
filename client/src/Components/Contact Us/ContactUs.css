@@ -114,12 +114,19 @@
 
 @media (width <=420px) {
     .ContactUs {
-        width: 70%;
+        width: 100%;
         .form {
             & .two-row {
                 grid-template-columns: 1fr;
             }
         }
     }
+}
 
+@media (width <=700px) {
+    .ContactUs {
+        .contact-details{
+            gap:1rem;
+        }
+    }
 }
