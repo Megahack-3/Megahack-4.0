@@ -4,6 +4,7 @@ import { SectionWrapper } from "../hoc/SectionWrapper.js";
 const ContactUs = () => {
     return (
         <>
+        <div id='Contact'></div>
             <section className='ContactUs'>
                 <h4>CONTACT US</h4>
                 <p>Reach Out to Us Anytime...</p>

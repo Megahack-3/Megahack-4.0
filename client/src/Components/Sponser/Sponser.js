@@ -58,7 +58,7 @@ const Sponsor = () => {
 
     return (
 <> 
-       <h1> Our Sponser</h1>
+       <h1 id="Sponsors"> Our Sponser</h1>
         <div className="sponsor-grid">
            
             {logos.map((logo) => (
