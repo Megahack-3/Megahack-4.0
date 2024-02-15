@@ -17,8 +17,12 @@ body {
 h1 {
   margin: 50px 0 30px;
   text-align: center;
+  font-size: 30px;
+  
 }
-
+p{
+  font-size:xx-small small;
+}
 
 .faq-container {
   max-width: 90%; 
@@ -29,18 +33,19 @@ h1 {
 
 .faq {
   background-color: transparent;
-  border: 1px solid #A555EC;
+  border: 1px solid #791e09;
   border-radius: 10px;
-  padding: 30px;
+  padding: 15px;
   margin: 20px 0;
   position: relative;
   overflow: hidden;
   transition: all .4s ease;
+  font-size: 15px;
 }
 
 
 .faq.active {
-  background-color: #FFF8C9;
+  background-color: #f4f3ee;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,6 +58,7 @@ h1 {
 .faq-text {
   display: none;
   margin: 30px 0 0;
+  font-size: larger;
 }
 
 
@@ -96,7 +102,7 @@ h1 {
 }
 
 .faq.active .faq-toggle {
-  background-color: #A555EC;
+  background-color: #5f0a0a73;
   border-radius: 50%;
-  color: #ffffd9;
+  color: #f1f1ec;
 }

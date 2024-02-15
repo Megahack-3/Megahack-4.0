@@ -2,14 +2,14 @@ import React, { useEffect } from 'react'
 
 const Countdown = () => {
     useEffect(() => {
-        // Dynamically add the countdown.js script to the document
+
         const script = document.createElement('script');
         script.src = 'https://cdn.logwork.com/widget/countdown.js';
         script.async = true;
         document.body.appendChild(script);
 
         return () => {
-            // Clean up: remove the script from the document when the component unmounts
+          
             document.body.removeChild(script);
         };
     }, []);

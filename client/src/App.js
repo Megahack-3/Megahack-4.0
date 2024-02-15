@@ -10,6 +10,7 @@ import ContactUs from './Components/Contact Us/ContactUs';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Event from './Components/Event/Event';
+import Sponsor from './Components/Sponser/Sponser';
 function App() {
   return (
 
@@ -17,11 +18,12 @@ function App() {
       <Navbar />
       <HomePage />
       <About/>
+      <CollegeMessage />
       <CountDowm />
       <Event/>
-      <CollegeMessage />
+     
       {/* Gallery */}
-      {/* Sponser */}
+      <Sponsor/>
       <FAQ />
       <Prize />
       <ContactUs />
