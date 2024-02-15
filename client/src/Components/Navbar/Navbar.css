@@ -1,11 +1,16 @@
 .navbar {
     width: 100%;
-    height: 100px;
+    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
     padding: 1rem;
     background-color: var(--darkgrey);
+    
+   
 }
 
 .navbar img {
@@ -18,6 +23,7 @@
 
 .nav-item {
     padding: 1rem;
+    font-size:medium;
 }
 
 .hamburger {
@@ -54,6 +60,7 @@
         height: 100%;
         text-align: center;
         transition: 0.4s;
+        
     }
 
     .nav-menu.active {
