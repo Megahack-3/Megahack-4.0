@@ -3,6 +3,7 @@ import LOGO from "./../../assets/images/logo.png";
 import mh from "./../../assets/images/Text.png";
 import "./HomePage.css";
 import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc/SectionWrapper.js";
 
 function HomePage() {
   const bgVariants = {

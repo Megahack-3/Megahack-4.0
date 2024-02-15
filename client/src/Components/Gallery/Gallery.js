@@ -1,84 +1,30 @@
-import React from 'react'
-import "./Gallery.css"
+import React from 'react';
+import "./Gallery.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import FirstImage from "../../images/FIrst.jpg"
+import SecondImage from "../../images/Two.jpg"
+import ThirdImage from "../../images/Three.jpg"
+import FouthImage from "../../images/Four.jpg"
+import FiveImage from "../../images/Five.jpg"
+import { SectionWrapper } from "../hoc/SectionWrapper.js";
+
 const Gallery = () => {
-  const images = [
-    {
-      id: "102",
-      author: "Ben Moore",
-      width: 4320,
-      height: 3240,
-      url: "https://unsplash.com/photos/pJILiyPdrXI",
-      download_url: "https://picsum.photos/id/102/4320/3240"
-    },
-    {
-      id: "103",
-      author: "Ilham Rahmansyah",
-      width: 2592,
-      height: 1936,
-      url: "https://unsplash.com/photos/DwTZwZYi9Ww",
-      download_url: "https://picsum.photos/id/103/2592/1936"
-    },
-    {
-      id: "104",
-      author: "Dyaa Eldin",
-      width: 3840,
-      height: 2160,
-      url: "https://unsplash.com/photos/2fl-ocJ5MOA",
-      download_url: "https://picsum.photos/id/104/3840/2160"
-    },
-    {
-      id: "106",
-      author: "Arvee Marie",
-      width: 2592,
-      height: 1728,
-      url: "https://unsplash.com/photos/YnfGtpt2gf4",
-      download_url: "https://picsum.photos/id/106/2592/1728"
-    },
-    {
-      id: "107",
-      author: "Lukas Schweizer",
-      width: 5000,
-      height: 3333,
-      url: "https://unsplash.com/photos/9VWOr22LhVI",
-      download_url: "https://picsum.photos/id/107/5000/3333"
-    },
-    {
-      id: "108",
-      author: "Florian Klauer",
-      width: 2000,
-      height: 1333,
-      url: "https://unsplash.com/photos/t1mqA3V3-7g",
-      download_url: "https://picsum.photos/id/108/2000/1333"
-    },
-    {
-      id: "109",
-      author: "Zwaddi",
-      width: 4287,
-      height: 2392,
-      url: "https://unsplash.com/photos/YvYBOSiBJE8",
-      download_url: "https://picsum.photos/id/109/4287/2392"
-    }
-  ];
+  const images = [FirstImage, SecondImage,ThirdImage,FouthImage,FiveImage];
+  
   return (
-         <div className="App" style={{'marginTop':'15px'}}>
-      
-      <Carousel className="crsl" autoPlay 
-      centerMode
-       interval={1000}
-       infiniteLoop
-      >
-
-        {images.map((image) => (
-          <img src={image.download_url} alt={image.author} />
-        ))}
-      
-
-      </Carousel>
-    </div>
-
-  )
-}
-
+    <>
+    <h1>Gallery</h1>
+    <div className="App" style={{ marginTop: '15px' }}>
+    <Carousel className="crsl" autoPlay centerMode interval={1000} infiniteLoop>
+      {images.map((image, index) => (
+        <div key={index}>
+          <img src={image} alt={`Image ${index + 1}`} />
+        </div>
+      ))}
+    </Carousel>
+  </div>
+  </>
+);
+};
 export default Gallery;

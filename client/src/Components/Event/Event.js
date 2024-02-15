@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Event.css"
+import { SectionWrapper } from "../hoc/SectionWrapper.js";
 
 const Event = () => {
     return (

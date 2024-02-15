@@ -1,5 +1,6 @@
 import React from 'react'
 import './Prize.css'
+import { SectionWrapper } from "../hoc/SectionWrapper.js";
 
 const Prize = () => {
     return (

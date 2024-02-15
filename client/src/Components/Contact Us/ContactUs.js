@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ContactUs.css"
-
+import { SectionWrapper } from "../hoc/SectionWrapper.js";
 const ContactUs = () => {
     return (
         <>

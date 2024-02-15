@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { SectionWrapper } from "../hoc/SectionWrapper.js";
 
 const Countdown = () => {
     useEffect(() => {

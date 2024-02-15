@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sponser.css";
+import { SectionWrapper } from "../hoc";
 const Sponsor = () => {
     const logos = [
         {
@@ -78,4 +79,4 @@ const Sponsor = () => {
     );
 };
 
-export default Sponsor;
+export default  SectionWrapper(Sponsor,"sponser");
