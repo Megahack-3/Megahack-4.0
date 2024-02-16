@@ -12,6 +12,21 @@
 
 
 }
+.scroll-animation {
+    animation-name: scrollEffect;
+    animation-duration: 1s;
+}
+
+@keyframes scrollEffect {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 .logo {
     & .main-logo {

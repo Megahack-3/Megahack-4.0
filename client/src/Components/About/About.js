@@ -1,9 +1,10 @@
 import React from 'react'
 import "./About.css"
 
+
 const About = () => {
     return (
-        <>
+      
             <section className='About' id='About'>
                 <div className="where about-data">
                     <h3>Where</h3>
@@ -15,10 +16,10 @@ const About = () => {
                 </div>
                 <div className="when about-data">
                     <h3>When</h3>
-                    <p>22 March and 23 March, 2024.</p>
+                    <p>22 & 23 March, 2024.</p>
                 </div>
             </section>
-        </>
+         
     )
 }
 

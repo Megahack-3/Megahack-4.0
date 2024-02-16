@@ -1,6 +1,5 @@
 import './App.css';
 import FAQ from './Components/FAQ/FAQ';
-//import Landing from './Pages/Landing';
 import Navbar from './Components/Navbar/Navbar';
 import CountDowm from "./Components/CountDown/Countdown"
 import CollegeMessage from "./Components/CollegeMEssage/CollegeMessage"
@@ -11,6 +10,7 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Event from './Components/Event/Event';
 import Sponsor from './Components/Sponser/Sponser';
+import Gallery from './Components/Gallery/Gallery';
 function App() {
   return (
 
@@ -20,8 +20,10 @@ function App() {
       <About />
       <CollegeMessage />
       <CountDowm />
-      <Event />
-      <Sponsor />
+      <Event/>
+     
+      <Gallery/>
+      <Sponsor/>
       <FAQ />
       <Prize />
       <ContactUs />

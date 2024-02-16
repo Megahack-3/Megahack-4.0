@@ -21,7 +21,7 @@ p{
 }
 
 .logo-home {
-  margin-top: auto;
+  margin-top: 7rem;
   width: 100%;
   max-width: 25rem;
 }
@@ -31,7 +31,8 @@ p{
 }
 
 .home-text h1 {
-  font-size: 3rem;
+  margin-top: 1rem;
+  font-size: 1rem;
   font-weight: bold;
   color: rgb(156, 152, 152);
 }

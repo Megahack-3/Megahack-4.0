@@ -1,10 +1,25 @@
 .Gallery {
-    font-family: sans-serif;
-    /* text-align: center; */
-  }
-  
+  font-family: sans-serif;
+}
+
+.crsl {
+  max-width: 100%; 
+  width: 75%;
+  margin: auto;
+}
+.crsl img {
+  max-width: 75%;
+  height: 25%;
+}
+
+@media (max-width: 768px) {
   .crsl {
-    width: 400px;
-    margin: auto;
+    max-width: 90%; 
   }
-  
+}
+
+@media (max-width: 576px) {
+  .crsl {
+    max-width: 100%; 
+  }
+}
