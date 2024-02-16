@@ -51,7 +51,7 @@ const Sponsor = () => {
     ];
     const openLink = (url) => {
         if (url) {
-            window.open (url,"_blank");
+            window.open(url, "_blank");
         }
     };
 
@@ -76,8 +76,7 @@ const Sponsor = () => {
                     <img src={logo.image} alt={logo.name} className="sponsor" />
                     <div className="sponsor-text">{logo.name}</div>
                 </div>
-            ))}
-        </div>
+            </section>
         </>
     );
 };
