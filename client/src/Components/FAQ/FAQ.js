@@ -19,6 +19,7 @@ const FAQ = () => {
 
     return (
         <>
+        <div className="faqqq" id="faqs">
             <h1 id='FAQs' >Frequently Asked Questions</h1>
             <div className="faq-container">
                 {FAQData.map((item, index) => (
@@ -41,6 +42,7 @@ const FAQ = () => {
                         </button>
                     </div>
                 ))}
+            </div>
             </div>
         </>
     );
