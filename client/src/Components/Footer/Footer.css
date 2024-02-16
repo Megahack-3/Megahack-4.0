@@ -4,7 +4,7 @@
     justify-items:center;
     grid-template-columns: 1fr 1fr;
     gap:3rem;
-    padding: 2rem 3.2rem;
+    padding: 2rem 7rem;
 
     & .information {
         display: flex;
@@ -67,4 +67,8 @@
     .Footer{
         grid-template-columns: 1fr;
     }
+}
+
+section{
+    position:relative;
 }

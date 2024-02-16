@@ -12,10 +12,10 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-            <div className="main-logo">
+                <div className="main-logo">
                     <img className="logo-image" src={Logo} alt="" />
                     <img className="text-image" src={logo} alt="" />
-                    </div>
+                </div>
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item">
@@ -54,4 +54,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Navbar;

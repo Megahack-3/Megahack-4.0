@@ -1,7 +1,7 @@
 .Event {
     display: flex;
     flex-direction: column;
-    margin-top: 2.4rem;
+    margin: 2rem 7rem;
   }
   
   .event-content {
