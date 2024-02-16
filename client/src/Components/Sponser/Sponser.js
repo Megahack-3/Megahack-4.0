@@ -1,50 +1,53 @@
 import React from "react";
 import "./Sponser.css";
+import axure from "../../images/axure.png"
+import GDSC from "../../images/GDSC.png"
+import hacktoskill from "../../images/hacktoskill.jpg"
 import { SectionWrapper } from "../hoc";
 const Sponsor = () => {
     const logos = [
         {
             id: 1,
-            name: "Logo 1",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "www.gmail.com",
+            name: "Axure",
+            image: axure,
+            webUrl: "https://www.axure.com/",
         },
         {
             id: 2,
-            name: "Logo 2",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1314831924812902791",
+            name: "GDSC",
+            image: GDSC,
+            webUrl: "https://gdsc.community.dev/st-john-college-of-engineering-management-palghar/",
         },
         {
             id: 3,
-            name: "Logo 3",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "",
+            name: "Hach to Skill",
+            image: hacktoskill,
+            webUrl: "https://hack2skill.com/",
         },
-        {
-            id: 4,
-            name: "Logo 4",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "",
-        },
-        {
-            id: 5,
-            name: "Logo 5",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "",
-        },
-        {
-            id: 6,
-            name: "Logo 3",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "",
-        },
-        {
-            id: 7,
-            name: "Logo 3",
-            image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
-            webUrl: "",
-        },
+        // {
+        //     id: 4,
+        //     name: "Logo 4",
+        //     image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
+        //     webUrl: "",
+        // },
+        // {
+        //     id: 5,
+        //     name: "Logo 5",
+        //     image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
+        //     webUrl: "",
+        // },
+        // {
+        //     id: 6,
+        //     name: "Logo 3",
+        //     image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
+        //     webUrl: "",
+        // },
+        // {
+        //     id: 7,
+        //     name: "Logo 3",
+        //     image: "https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png",
+        //     webUrl: "",
+        // },
     ];
     const openLink = (url) => {
         if (url) {
@@ -58,7 +61,7 @@ const Sponsor = () => {
 
     return (
 <> 
-       <h1 id="Sponsors"> Our Sponser</h1>
+       <h1 id="Sponsors"> Our Sponsors</h1>
         <div className="sponsor-grid">
            
             {logos.map((logo) => (

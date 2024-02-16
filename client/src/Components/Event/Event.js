@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Event.css"
-import { SectionWrapper } from "../hoc/SectionWrapper.js";
+import { SectionWrapper } from "../hoc";
 
 const Event = () => {
     return (
         <>
-            <section className='Event'>
+            <section className='Event' id='event'>
                 <div className="event-content speaker" id='#Speaker'>
                     <h3>EVENT SPEAKERS</h3>
                     <p>A good speech is like a pencil; it has to have a point.</p>
@@ -39,4 +39,4 @@ const Event = () => {
     )
 }
 
-export default Event
+export default SectionWrapper(Event,"event")

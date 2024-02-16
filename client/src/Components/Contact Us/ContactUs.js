@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ContactUs.css"
-import { SectionWrapper } from "../hoc/SectionWrapper.js";
+
 const ContactUs = () => {
     return (
         <>
@@ -11,7 +11,7 @@ const ContactUs = () => {
                 <div className="seprater"></div>
                 <div className="contact-details">
                     <div className="contact-box phone">
-                        <h5>PHONE NUMBER</h5>
+                        <h5>CONTACT NUMBER</h5>
                         <p><a href="tel:+91 9225917698">+91 9225917698</a> (Mr. Shubham Raut)</p>
                         <p><a href="tel:+91 9765124180">+91 9765124180</a> (Mr. Rohit Mule)</p>
                     </div>
