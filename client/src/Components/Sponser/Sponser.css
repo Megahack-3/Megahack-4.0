@@ -37,3 +37,8 @@ h1{
   opacity: 0; /* Hidden by default */
   transition: opacity 0.3s ease;
 }
+@media screen and (max-width: 768px) {
+  .sponsor {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+}
