@@ -1,19 +1,21 @@
 import React, { useEffect } from 'react'
-import { SectionWrapper } from "../hoc/SectionWrapper.js";
+
 
 const Countdown = () => {
     useEffect(() => {
-
         const script = document.createElement('script');
         script.src = 'https://cdn.logwork.com/widget/countdown.js';
         script.async = true;
         document.body.appendChild(script);
 
         return () => {
-          
             document.body.removeChild(script);
         };
     }, []);
+
+    const handleClick = (e) => {
+        e.preventDefault();
+    };
 
     return (
         <div>
@@ -26,6 +28,7 @@ const Countdown = () => {
                 data-date="2024-03-22 12:00"
                 data-background="#ffd700"
                 data-digitscolor="#000000"
+                onClick={handleClick} 
             >
                 Countdown Timer
             </a>
@@ -33,4 +36,4 @@ const Countdown = () => {
     );
 }
 
-export default Countdown
+export default Countdown;
