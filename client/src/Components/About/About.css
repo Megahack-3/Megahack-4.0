@@ -1,25 +1,40 @@
 .About {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     gap: 5rem;
-    margin: 2rem 1rem;
-  
+    margin: 2rem 7rem;
 
-    & .about-event {
-        /* width: 60rem; */
 
-    }
 
     & .about-data {
+        clip-path: polygon(50% 100%, 100% 62%, 100% 0, 0 0, 0 62%);
+        background-color: yellow;
+        padding: 5rem;
+        padding-bottom: 10rem;
+        text-align: center;
+
         & h3 {
             font-size: 2.4rem;
         }
 
         & p {
             font-size: 1.6rem;
-            text-align: justify;
+            text-align: center;
         }
     }
+
+    & .about-event {
+        padding-bottom: 15rem;
+    }
+
+    /* & .about-data::before{
+        content: " ";
+        clip-path: polygon(50% 100%, 100% 62%, 100% 0, 0 0, 0 62%);
+        background-color: black;
+        padding: 5rem;
+        padding-bottom: 10rem;
+        text-align: center;
+    } */
 }
 
 
