@@ -2,7 +2,7 @@ import React from 'react';
 import './CollegeMessage.css';
 import aldel from '../../assets/images/aldel.png';
 import sjcem from '../../assets/images/SJCEM.png';
-import { SectionWrapper } from "../hoc/SectionWrapper.js";
+
 
 const CollegeMessage = () => {
     

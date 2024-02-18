@@ -3,7 +3,7 @@ import "./Sponser.css";
 import axure from "../../images/axure.png";
 import GDSC from "../../images/GDSC.png";
 import hacktoskill from "../../images/hacktoskill.png";
-import { SectionWrapper } from "../hoc";
+
 
 const Sponsor = () => {
     const logos = [
@@ -51,7 +51,7 @@ const Sponsor = () => {
                         <p style={{ textAlign: "center", color: "black", fontWeight: "bold",fontSize:25 }}>{logo.header}</p>
                         <div className="sponsor-container" style={{ textAlign: "center" }}>
                             <div onClick={() => openLink(logo.webUrl)}>
-                                <a href={logo.webUrl}></a>
+                                <a href={logo.webUrl}/>
                                 <img
                                     src={logo.image}
                                     alt={logo.name}
@@ -67,4 +67,4 @@ const Sponsor = () => {
     );
 };
 
-export default SectionWrapper(Sponsor, "sponser");
+export default Sponsor;
