@@ -60,25 +60,25 @@ const Sponsor = () => {
     };
 
     return (
-<> 
-       <h1 id="Sponsors"> Our Sponsors</h1>
-        <div className="sponsor-grid">
-           
-            {logos.map((logo) => (
-                <div
-                    key={logo.id}
-                    className="sponsor-container"
-                    onMouseEnter={handleLogoHover}
-                    onMouseLeave={handleLogoHover}
-                    onClick={() => openLink(logo.webUrl)}
-                >
-                    <a href={logo.webUrl}></a>
-                    <img src={logo.image} alt={logo.name} className="sponsor" />
-                    <div className="sponsor-text">{logo.name}</div>
-                </div>
-            </section>
+        <>
+            <h1 id="Sponsors"> Our Sponsors</h1>
+            <div className="sponsor-grid">
+                {logos.map((logo) => (
+                    <div
+                        key={logo.id}
+                        className="sponsor-container"
+                        onMouseEnter={handleLogoHover}
+                        onMouseLeave={handleLogoHover}
+                        onClick={() => openLink(logo.webUrl)}
+                    >
+                        <a href={logo.webUrl}></a>
+                        <img src={logo.image} alt={logo.name} className="sponsor" />
+                        <div className="sponsor-text">{logo.name}</div>
+                    </div>
+                ))}
+            </div>
         </>
     );
 };
 
-export default  SectionWrapper(Sponsor,"sponser");
+export default SectionWrapper(Sponsor, "sponser");
