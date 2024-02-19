@@ -28,6 +28,7 @@ function App() {
    <li></li>
 </ul> */}
       <Navbar />
+      <></>
       <HomePage />
       <About />
       <CollegeMessage />
