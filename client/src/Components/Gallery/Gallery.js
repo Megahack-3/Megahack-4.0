@@ -28,7 +28,7 @@ import winner4 from "../../images/winner4.png"
 
 
 const Gallery = () => {
-  const images = [ mg1,mg11,mg3,Inaugral,session1,session2,session3,session4,winner,winner2,winner3,winner4,team,team, mg32,mg31,SecondImage,ThirdImage,FouthImage,FiveImage];
+  const images = [ mg1,mg11,mg3,Inaugral,session1,session2,session3,session4,winner,winner2,winner3,winner4,team,team,team3, mg32,mg31,SecondImage,ThirdImage,FouthImage,FiveImage];
   
   return (
     <>
@@ -37,7 +37,7 @@ const Gallery = () => {
     <Carousel className="crsl" autoPlay centerMode interval={1000} infiniteLoop style={{ width: '80%', margin: 'auto' }}>
       {images.map((image, index) => (
         <div key={index}>
-          <img src={image} alt={`Image ${index + 1}`} />
+          <img src={image} alt={` ${index + 1}`} />
         </div>
       ))}
     </Carousel>

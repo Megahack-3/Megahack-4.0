@@ -15,6 +15,18 @@ function App() {
   return (
 
     <div className="App">
+      {/* <ul class="background">
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul> */}
       <Navbar />
       <></>
       <HomePage />
