@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Event.css"
-import { SectionWrapper } from "../hoc";
+
 
 const Event = () => {
     return (
@@ -16,6 +16,7 @@ const Event = () => {
                 <div className="event-content schedule">
                     <h3>EVENT SCHEDULE</h3>
                     <p>“You gotta make it a priority to make your priorities a priority.” ― Richie Norton</p>
+                    <p>TBD</p>
                     <div className="sep"></div>
                 </div>
                 <div className=" event-content venue">
@@ -40,4 +41,4 @@ const Event = () => {
     )
 }
 
-export default SectionWrapper(Event,"event")
+export default Event;
