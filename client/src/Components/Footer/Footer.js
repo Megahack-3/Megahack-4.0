@@ -24,8 +24,8 @@ const Footer = () => {
                     <div className="contact">
                         <h6>Contact Us:</h6>
                         <div className="sep"></div>
-                        <p><strong>Phone:</strong><a href="tel:+91 9225917698">+91 9225917698</a> / <a href="tel:+91 9765124180">+91 9765124180</a></p>
-                        <p><strong>Email:</strong><a href="mailto:megahack@sjcem.edu.in">megahack@sjcem.edu.in</a></p>
+                        <p><strong>Phone:</strong><a href="tel:+91 9225917698">+91 9225917698</a> / <a href="tel: +91 9765124180"> +91 9765124180</a></p>
+                        <p><strong>Email:</strong><a href="mailto:megahack@sjcem.edu.in"> megahack@sjcem.edu.in</a></p>
                     </div>
                     <div className="social">
                         <a href='https://www.instagram.com/megahack_sjcem/'><img src={insta} alt="" /></a>
