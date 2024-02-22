@@ -8,7 +8,7 @@ const About = () => {
             <section className='About' id='About'>
                 <div className="where about-data">
                     <h3>Where</h3>
-                    <p>In-person at St. John College of Engineering and Management Palghar, Maharashtra</p>
+                    <p>In-person at St. John College of Engineering and Management, Palghar, Maharashtra</p>
                 </div>
                 <div className="about-event about-data">
                     <h3>About The Event</h3>
