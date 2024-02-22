@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./../../assets/images/back.jpg');
+/* //background-image: url('./../../assets/images/back.jpg'); */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: black;
+  /* background-color: black; */
 }
 
 img {

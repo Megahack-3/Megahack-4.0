@@ -45,11 +45,11 @@ const Sponsor = () => {
     return (
 
         <>
-            <h1 id="Sponsors" style={{ textAlign: "center", color: "black", fontWeight: "bold",fontSize:50 }}>Our Sponsors</h1>
+            <h1 id="Sponsors" style={{ textAlign: "center", color: "white", fontWeight: "bold",fontSize:50 }}>Our Sponsors</h1>
             <div className="sponsor-grid">
                 {logos.map((logo) => (
                     <div key={logo.id} className="sponsor-wrapper">
-                        <p style={{ textAlign: "center", color: "black", fontWeight: "bold",fontSize:25 }}>{logo.header}</p>
+                        <p style={{ textAlign: "center", color: "white", fontWeight: "bold",fontSize:25 }}>{logo.header}</p>
                         <div className="sponsor-container" style={{ textAlign: "center" }}>
                             <div onClick={() => openLink(logo.webUrl)}>
                                 <a href={logo.webUrl}/>
