@@ -30,7 +30,7 @@ const Sponsor = () => {
             name: "Hack to Skill",
             image: hacktoskill,
             webUrl: "https://hack2skill.com/",
-            header: "Platform Partner",
+            header: "Powered By",
             height: 100, 
             width: 175, 
         },
