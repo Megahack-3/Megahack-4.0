@@ -75,7 +75,7 @@ const Navbar = () => {
                     <a href="#Contact" onClick={() => scrollToSection("Contact")}>Contact</a>
                 </li>
                 <li className="nav-item">
-                    <button className="signin-button">Register</button>
+                    <button className="signin-button"><a href="https://hack2skill.com/hack/megahack?utm_source=Website&utm_medium=link" target="_blank">Register</a></button>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>

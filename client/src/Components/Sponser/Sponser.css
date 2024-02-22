@@ -14,6 +14,9 @@ h1{
 .sponsor-container {
   position: relative;
 }
+p{
+  color:aliceblue;
+}
 
 .sponsor-container:hover .sponsor-text {
   opacity: 1;
