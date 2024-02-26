@@ -28,7 +28,7 @@ function HomePage() {
 
   return (
     <motion.div className="Homepage" variants={bgVariants} initial="initial" animate="animate">
-
+      
       <motion.img
         className="logo-home"
         src={LOGO}
