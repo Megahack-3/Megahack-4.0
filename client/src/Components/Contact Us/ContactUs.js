@@ -24,24 +24,24 @@ const ContactUs = () => {
                     <div className="line two-row">
                         <div className="intag">
                             <label htmlFor="Name">Name</label>
-                            <input type="text" name="Name" id="Name" />
+                            <input type="text" name="Name" id="Name" placeholder='Enter Your Name' />
                         </div>
                         <div className="intag">
                             <label htmlFor="Email">Email</label>
-                            <input type="text" name="Email" id="Email" />
+                            <input type="text" name="Email" id="Email" placeholder='Enter Your Email'/>
                         </div>
                     </div>
                     <div className="intag">
                         <label htmlFor="Mobile">Mobile</label>
-                        <input type="text" name="Mobile" id="Mobile" />
+                        <input type="text" name="Mobile" id="Mobile" placeholder='Enter Your Mobile No.'/>
                     </div>
                     <div className="intag">
                         <label htmlFor="Query">Query</label>
-                        <input type="text" name="Query" id="Query" />
+                        <input type="text" name="Query" id="Query" placeholder='Enter Your Query Here'/>
                     </div>
                     <div className="intag">
                         <label htmlFor="Message">Message</label>
-                        <textarea name="Message" id="Message" cols="30" rows="4"> </textarea>
+                        <textarea name="Message" id="Message" cols="30" rows="4" placeholder='Give Description'> </textarea>
                     </div>
                     <button>Submit</button>
                 </div>

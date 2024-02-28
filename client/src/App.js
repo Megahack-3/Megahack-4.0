@@ -8,41 +8,31 @@ import Prize from './Components/Prize/Prize';
 import ContactUs from './Components/Contact Us/ContactUs';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
-import Event from './Components/Event/Event';
+import Venue from './Components/Event/EventVenue';
 import Sponsor from './Components/Sponser/Sponser';
 import Gallery from './Components/Gallery/Gallery';
+import Schedule from './Components/Event/Schedule';
+import Speaker from './Components/Event/Speaker';
 
 
 
 function App() {
-  
+
   return (
 
     <div className="App">
-      {/* <ul class="background">
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-</ul> */}
       <Navbar />
-     
       <HomePage />
       <About />
       <CollegeMessage />
       <CountDowm />
-      <Event/>
-     
-      <Gallery/>
-      <Sponsor/>
-      <FAQ />
+      <Schedule/>
+      <Speaker/>
       <Prize />
+      <Sponsor />
+      <Gallery />
+      <Venue />
+      <FAQ />
       <ContactUs />
       <Footer />
     </div>
