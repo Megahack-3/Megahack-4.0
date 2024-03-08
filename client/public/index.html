@@ -25,6 +25,16 @@
     -->
 
   <title>MegaHack 4.0</title>
+  <style>
+    #spinner{
+      align-items: center;
+      background-color: #866327;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      width: 100vw;
+    }
+  </style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LD66DRM57"></script>
@@ -38,7 +48,14 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="spinner">
+    <img src="./ball.gif" alt="">
+  </div>
+  <div id="root">
+    <div id="spinner">
+      <img src="./ball.gif" alt="">
+    </div>
+  </div>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

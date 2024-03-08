@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import FAQ from './Components/FAQ/FAQ';
 import Navbar from './Components/Navbar/Navbar';
@@ -17,26 +18,33 @@ import Speaker from './Components/Event/Speaker';
 
 
 function App() {
-
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 1000);
+  }
   return (
-
-    <div className="App">
-      <Navbar />
-      <HomePage />
-      <About />
-      <CollegeMessage />
-      <CountDowm />
-      <Schedule/>
-      <Speaker/>
-      <Prize />
-      <Sponsor />
-      <Gallery />
-      <Venue />
-      <FAQ />
-      <ContactUs />
-      <Footer />
-    </div>
-
+    !loading && (
+      <div className="App">
+        <Navbar />
+        <HomePage />
+        <About />
+        <CollegeMessage />
+        <CountDowm />
+        <Schedule />
+        <Speaker />
+        <Prize />
+        <Sponsor />
+        <Gallery />
+        <Venue />
+        <FAQ />
+        <ContactUs />
+        <Footer />
+      </div>
+    )
   );
 }
 
