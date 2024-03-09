@@ -1,22 +1,24 @@
 .Footer {
     background-color: #22262a;
     display: grid;
-    justify-items:center;
+    justify-items: center;
     grid-template-columns: 1fr 1fr;
-    gap:3rem;
+    gap: 3rem;
     padding: 2rem 7rem;
 
     & .information {
         display: flex;
         flex-direction: column;
 
-        & .main-logo{
+        & .main-logo {
             display: flex;
-            & .logo-image{
+
+            & .logo-image {
                 width: auto;
                 height: 5rem;
             }
-            & .text-image{
+
+            & .text-image {
                 width: auto;
                 height: 5rem;
             }
@@ -36,24 +38,28 @@
         align-items: center;
         color: white;
 
-        & .contact{
-            & h6{
+        & .contact {
+            & h6 {
                 font-size: 2.4rem;
             }
-            & p{
+
+            & p {
                 font-size: 1.6rem;
             }
-            & .sep{
+
+            & .sep {
                 width: 15rem;
                 height: .5rem;
                 background-color: white;
                 margin: 1rem 0;
             }
         }
+
         & .social {
             display: flex;
             margin-top: 1rem;
             gap: 1rem;
+
             & a {
                 & img {
                     width: 3rem;
@@ -64,11 +70,28 @@
 }
 
 @media (width <=950px) {
-    .Footer{
+    .Footer {
         grid-template-columns: 1fr;
+
+        & .information {
+
+            & .main-logo {
+
+                & .logo-image {
+                    width: auto;
+                    height: 3rem;
+                }
+
+                & .text-image {
+                    width: auto;
+                    height: 3rem;
+                }
+            }
+
+        }
     }
 }
 
-section{
-    position:relative;
+section {
+    position: relative;
 }
