@@ -4,7 +4,7 @@ import "./ContactUs.css"
 const ContactUs = () => {
     return (
         <>
-        <div id='Contact'></div>
+            <div id='Contact'></div>
             <section className='ContactUs'>
                 <h4>CONTACT US</h4>
                 <p>Reach Out to Us Anytime...</p>
@@ -28,22 +28,24 @@ const ContactUs = () => {
                         </div>
                         <div className="intag">
                             <label htmlFor="Email">Email</label>
-                            <input type="text" name="Email" id="Email" placeholder='Enter Your Email'/>
+                            <input type="text" name="Email" id="Email" placeholder='Enter Your Email' />
                         </div>
                     </div>
                     <div className="intag">
                         <label htmlFor="Mobile">Mobile</label>
-                        <input type="text" name="Mobile" id="Mobile" placeholder='Enter Your Mobile No.'/>
+                        <input type="text" name="Mobile" id="Mobile" placeholder='Enter Your Mobile No.' />
                     </div>
                     <div className="intag">
                         <label htmlFor="Query">Query</label>
-                        <input type="text" name="Query" id="Query" placeholder='Enter Your Query Here'/>
+                        <input type="text" name="Query" id="Query" placeholder='Enter Your Query Here' />
                     </div>
                     <div className="intag">
                         <label htmlFor="Message">Message</label>
                         <textarea name="Message" id="Message" cols="30" rows="4" placeholder='Give Description'> </textarea>
                     </div>
-                    <button>Submit</button>
+                    <div className="contact-button">
+                        <button className='btn'>Submit</button>
+                    </div>
                 </div>
             </section>
         </>
