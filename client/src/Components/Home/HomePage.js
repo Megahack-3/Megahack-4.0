@@ -61,6 +61,7 @@ function HomePage() {
           <p> CODE | COMPETE | CONQUER</p>
         </motion.h1>
       </motion.div>
+      <button className="signin-button" id='mob-button'><a href="https://hack2skill.com/hack/megahack?utm_source=Website&utm_medium=link" target="_blank">Register</a></button>
     </motion.div>
   );
 }

@@ -1,7 +1,7 @@
 .Homepage {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 background-image: url('./../../assets/images/back.jpg');
   background-size: cover;
@@ -21,7 +21,7 @@ p{
 }
 
 .logo-home {
-  margin-top: 7rem;
+  margin-top: 2rem;
   width: 100%;
   max-width: 25rem;
 }
@@ -42,6 +42,19 @@ p{
   max-width: 35rem;
 }
 
+.signin-button {
+  background-color: red;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#mob-button{
+  display:none;
+}
+
 @media (max-width: 768px) {
   .logo-home {
     max-width: 150px;
@@ -50,5 +63,12 @@ p{
 
   .home-text h1 {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #mob-button{
+    display: inline;
+    margin-bottom: 2.4rem;
   }
 }

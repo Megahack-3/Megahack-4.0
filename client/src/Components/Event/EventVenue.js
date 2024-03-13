@@ -2,23 +2,10 @@ import React from 'react'
 import "./Event.css"
 
 
-const Event = () => {
+const EventVenue = () => {
     return (
         <>
-            <section className='Event' id='event'>
-                <div className="event-content speaker" id='#Speaker'>
-
-                    <h3>EVENT SPEAKERS</h3>
-                    <p>A good speech is like a pencil; it has to have a point.</p>
-                    <p>TBD</p>
-                    <div className="sep"></div>
-                </div>
-                <div className="event-content schedule">
-                    <h3>EVENT SCHEDULE</h3>
-                    <p>“You gotta make it a priority to make your priorities a priority.” ― Richie Norton</p>
-                    <p>TBD</p>
-                    <div className="sep"></div>
-                </div>
+            <section className='Event'>
                 <div className=" event-content venue">
                     <h3>EVENT VENUE</h3>
                     <p>St. John College of Engineering and Management, Palghar, Maharashtra</p>
@@ -41,4 +28,4 @@ const Event = () => {
     )
 }
 
-export default Event;
+export default EventVenue;
