@@ -8,6 +8,7 @@ background-image: url('./../../assets/images/back.jpg');
   background-position: center;
   min-height: 90vh;
   overflow-x: hidden;
+  
   /* background-color: black; */
 }
 
@@ -16,10 +17,11 @@ img {
   max-width: 30rem;
   height: auto;
 }
-p{
-  font-size: 30px;
-}
 
+#code{
+  font-size: 25px;
+  color: #808080;
+}
 .logo-home {
   margin-top: 2rem;
   width: 100%;
