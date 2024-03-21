@@ -5,6 +5,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding: 2rem 7rem;
+    overflow: hidden;
 
     & .information {
         display: flex;

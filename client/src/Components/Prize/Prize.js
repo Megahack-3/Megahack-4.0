@@ -11,8 +11,8 @@ const Prize = () => {
                 <div className="seprater"></div>
                 <div className="Total">
                     <div className="amounts">
-                        <p className="des">Prize Worth</p>
-                        <p className="pisa">₹1,00,000/-</p>
+                        <p id='prize' className="des">Prize Worth</p>
+                        <p id='prize'className="pisa">₹1,00,000/-</p>
                     </div>
                 </div>
             </section>
