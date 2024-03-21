@@ -90,18 +90,13 @@ li {
   font-size: 16px;
 }
 
-#cen1{
-  text-align: center;
-  /* font-weight: bolder; */
-}
-
 
 .event-group {
   border: 2px solid #ff8400;
   border-radius: 10px;
   padding: 15px;
-  background-color: #fff7cd;
-  box-shadow: 0px 0px 15px rgba(210, 98, 7, 0.3);
+  background-color: #ffe3b9;
+  /* box-shadow: 0px 0px 15px rgba(0, 123, 255, 0.3); */
   transition: transform 0.3s ease;
 }
 
@@ -124,7 +119,7 @@ ul li {
 }
 
 ul li:hover {
-  color: #f76a06;
+  color: #de5a26;
 } 
 
 @media (width<=940px) {
@@ -132,4 +127,3 @@ ul li:hover {
     flex-direction: column;
   }
 }
-

@@ -13,7 +13,7 @@ const Schedule = () => {
                         <div className="event-group">
                             <p className="event-title"><strong>Inauguration</strong></p>
                             <ul>
-                                <li id='cen1' >10:00 AM - 11:45 AM </li>
+                                <li style={{textAlign:'center'}}>10:00 AM - 11:45 AM </li>
                             </ul>
                         </div>
                         <div className="event-group">
@@ -36,7 +36,7 @@ const Schedule = () => {
                         <div className="event-group">
                             <p className="event-title"><strong>Lightning Talk</strong></p>
                             <ul>
-                                <li id='cen1'>08:00 PM - 08:15 PM </li>
+                                <li style={{textAlign:'center'}}>08:00 PM - 08:15 PM </li>
                                 <li style={{textAlign:'center'}}>Talk by Industry Experts followed by short Mentoring</li>
                             </ul>
                         </div>

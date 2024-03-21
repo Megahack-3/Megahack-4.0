@@ -2,13 +2,18 @@ import React from "react";
 import "./Sponser.css";
 import axure from "../../images/axure.png";
 import GDSC from "../../images/GDSC.png";
-import rigel from "../../images/rigel.png";
-import jsw from "../../images/jsw.png";
+import rigel from "../../images/Rigalinfo.png";
+
 import janta from "../../images/Janata_Sweets.jpg";
 import conceptComputers from "../../images/concept.png";
 import vector from "../../images/vectors.png"
 import unstop from "../../images/unstop.png"
 import hacktoskill from "../../images/hacktoskill.png";
+import codedamnd from "../../images/Codedamn.png"
+import Branding from "../../images/CatalystArtboard 1@2x-80.jpg"
+import Bramha from "../../images/Bramha.png"
+import nirlon from "../../images/Nirlon.png"
+import Reegal from "../../images/Reegal.png"
 
 const Sponsor = () => {
     const logos = [
@@ -30,15 +35,15 @@ const Sponsor = () => {
             height: 100,
             width: 210,
         },
-        // {
-        //     id: 3,
-        //     name: "GDSC",
-        //     image: GDSC,
-        //     webUrl: "https://gdsc.community.dev/st-john-college-of-engineering-management-palghar/",
-        //     header: "Community partner",
-        //     height: 140,
-        //     width: 150,
-        // },
+        {
+            id: 3,
+            name: "GDSC",
+            image: GDSC,
+            webUrl: "https://gdsc.community.dev/st-john-college-of-engineering-management-palghar/",
+            header: "Community partner",
+            height: 140,
+            width: 150,
+        },
         {
             id: 4,
             name: "Vector",
@@ -53,20 +58,12 @@ const Sponsor = () => {
             id: 5,
             name: "Rigel",
             image: rigel,
-            webUrl: "https://hack2skill.com/",
+            webUrl: "",
             header: "Internship Partner",
             height: 100,
             width: 210
         },
-        {
-            id: 6,
-            name: "unstop",
-            image: unstop,
-            webUrl: "https://unstop.com/",
-            header: "Powered By",
-            height: 140,
-            width: 220
-        },
+        
         {
             id: 7,
             name: "concept",
@@ -84,6 +81,51 @@ const Sponsor = () => {
             header: "Silver Tier",
             height: 150,
             width: 200
+        },
+        {
+            id: 9,
+            name: "Codedamn",
+            image: codedamnd,
+            webUrl: "https://codedamn.com/",
+            header: "In Kind Partner",
+            height: 100,
+            width: 210,
+        },
+        {
+            id: 10,
+            name: "Nirlon",
+            image: nirlon,
+            webUrl: "https://www.nirlonkitchenware.in/",
+            header: "In Kind Partner",
+            height: 120,
+            width: 210,
+        },
+        {
+            id: 11,
+            name: "Branding",
+            image: Branding,
+            webUrl: "https://www.nirlonkitchenware.in/",
+            header: "In Kind Partner",
+            height: 120,
+            width: 210,
+        },
+        {
+            id: 12,
+            name: "Regal",
+            image: Reegal,
+            webUrl: " ",
+            header: "Stationery Partner",
+            height: 200,
+            width: 210,
+        },
+        {
+            id: 13,
+            name: "Bhrama",
+            image: Bramha,
+            webUrl: "",
+            header: "Hydration Partner",
+            height: 200,
+            width: 290,
         },
         
         
